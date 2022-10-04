@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SVC Ceramic</title>
+
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  
+    <div class="navbar">
+
+        <img src="images/cut svc.png">
+
+        <div class="manu-right">
+
+            <span onclick="myFunction()"> &#9776; </span>
+
+            <ul id="menu">
+                <li>Home</li>
+                <li>Price List</li>
+                <li>Catlog</li>
+                <li>About Us</li>
+            </ul>
+            
+        </div>
+        
+    </div>
+    <h1 align="center">Maulik Patadiya</h1>
+    
+    <script>
+        function myFunction(){
+            var x = document.getElementById("menu");
+
+            if(x.style.display == "block")
+            {
+                x.style.display = "none";
+            }
+            else{
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
